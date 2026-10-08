@@ -152,3 +152,51 @@ html {
     gap: 12px;
   }
 }
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.footer {
+  width: 100%;
+  background-color: #24143d;
+  color: #dedee3;
+  padding: 24px 20px 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer .copyright {
+  font-size: 8.5px;
+  color: #dedee3;
+  letter-spacing: 0.2px;
+}
+
+.footer .course-info {
+  font-size: 7.5px;
+  color: #a09cb0;
+}
+
+.footer .back-to-top {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 8px;
+  color: #ffffff;
+  opacity: 0.8;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.footer .back-to-top:hover {
+  opacity: 1;
+  text-decoration: underline;
+  transform: translateY(-2px);
+}
